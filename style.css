@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  height: 80px;
+  align-items: center;
+  background: rgba(89, 0, 255, 0.397);
+}
+.logo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  flex: 1;
+}
+.menu {
+  flex: 1.1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  margin: 29px;
+}
+.icons {
+  /* height: 32px; */
+  /* width: 32px; */
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+}
+.icon-bg {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  background: crimson;
+  color: aqua;
+  margin: 10px;
+}
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 300px;
+  background: rgba(89, 0, 255, 0.397);
+}
+.banner-img {
+  background: url(images/delfindan.jpg);
+  height: 650px;
+  width: 700px;
+  object-fit: cover;
+  border-radius: 0 100% 100% 0;
+  background-size: cover;
+  background-position: center;
+}
+.banner-text {
+  padding-right: 10px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 450px;
+  padding-left: 5%;
+}
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 76px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-family: "Mulish", sans-serif;
+  letter-spacing: 1.8px;
+  color: #fff;
+}
+.banner-text span {
+  max-width: 400px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  line-height: 42px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 14px 38px;
+  background: rgba(89, 0, 255, 0.397);
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  font-family: "Mulish", sans-serif;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+.service-container {
+  display: grid;
+  min-height: 550px;
+  font-family: "Mulish:", sans-serif;
+}
+.service-container title {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: aqua;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in 0s;
+  display: grid;
+}
