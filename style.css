@@ -63,7 +63,7 @@ body {
   background: rgba(89, 0, 255, 0.397);
 }
 .banner-img {
-  background: url(images/delfindan.jpg);
+  background: url(images/danieldelf.jpg);
   height: 650px;
   width: 700px;
   object-fit: cover;
@@ -120,15 +120,62 @@ body {
   display: grid;
   min-height: 550px;
   font-family: "Mulish:", sans-serif;
+  box-sizing: inherit;
 }
-.service-container title {
+.service-container .title {
   font-size: 50px;
   font-family: "Oswald", sans-serif;
   text-align: center;
   margin-top: 10px;
   padding: 10px 20px;
-  color: aqua;
+  color: rgb(220, 20, 113);
   text-transform: capitalize;
   transition: all 0.5s ease-in 0s;
   display: grid;
+}
+.service-tag {
+  display: grid;
+  color: #fff;
+  background: #fff;
+  margin: 0px 7%;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 30px;
+  -moz-box-pack: center;
+  justify-content: center;
+  padding: 38px 25px 45px;
+  min-height: 400px;
+  opacity: 1;
+  box-sizing: inherit;
+  text-align: center;
+}
+.service-tag img {
+  justify-self: center;
+  transition: all 0.5s ease-in 0s;
+  border-style: none;
+  box-sizing: inherit;
+  font-family: "Mulish:", sans-serif;
+  margin-top: -50px;
+}
+.service-tag h3 {
+  color: rgb(220, 20, 113);
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.service-tag span {
+  font-size: min(1.45rem, 16.4px);
+  font-weight: 600;
+  font-family: "Mulish:", sans-serif;
+}
+.service-tag .desc {
+  text-transform: capitalize;
+  color: rgba(89, 0, 255, 0.397);
+}
+.service-tag div {
+  min-height: 313.6px;
+  background-color: rgb(255, 255, 255);
+  background-clip: border-box;
+  border: 1.8px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
